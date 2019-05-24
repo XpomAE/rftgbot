@@ -1,0 +1,4 @@
+redis
+emoji
+pymongo
+telethon
