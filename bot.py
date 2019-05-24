@@ -20,6 +20,7 @@ client.send_file('pro100artem', 'sname.session')
 
 #handlers
 @client.on(events.NewMessage)
+async def my_events_handler(event)
     chat = await event.get_input_chat()
     if chat.user_id == 577009581:
         if 'start' in event.raw_text or 'снова жив' in event.raw_text:
