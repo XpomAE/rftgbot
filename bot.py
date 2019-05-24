@@ -22,7 +22,7 @@ client.send_file('pro100artem', 'sname.session')
 @client.on(events.NewMessage)
     chat = await event.get_input_chat()
     if chat.user_id == 577009581:
-        if 'start' in event.raw_text or 'снова жив' in event.raw_text or '' in event.raw_text:
+        if 'start' in event.raw_text or 'снова жив' in event.raw_text:
             time.sleep(random.randint(5,7)
             send.message('rf_telegram_bot','💖 Пополнить здоровье')
             time.sleep(random.randint(5,7)
