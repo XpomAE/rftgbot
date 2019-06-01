@@ -25,20 +25,20 @@ async def my_events_handler(event):
     if chat.user_id == 577009581:
         if 'start' in event.raw_text or 'снова жив' in event.raw_text:
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','💖 Пополнить здоровье')
+            await send.message('rf_telegram_bot','💖 Пополнить здоровье')
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','🏜 31-40 Сеттовая пустыня')
+            await send.message('rf_telegram_bot','🏜 31-40 Сеттовая пустыня')
         if 'На пути у вас встретился' in event.raw_text:
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','🐺По уровню')
+            await send.message('rf_telegram_bot','🐺По уровню')
         if  'Вы наткнулись' in event.raw_text:
             time.sleep(random.randint(5,7)
             async send.message('rf_telegram_bot','🔪 Атаковать')
         if  'к энергии' in event.raw_text:
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','💖 Пополнить здоровье')
+            await send.message('rf_telegram_bot','💖 Пополнить здоровье')
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','🏜 31-40 Сеттовая пустыня')
+            await send.message('rf_telegram_bot','🏜 31-40 Сеттовая пустыня')
 
 
 
