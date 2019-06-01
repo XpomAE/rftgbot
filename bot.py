@@ -25,7 +25,7 @@ async def my_events_handler(event):
     if chat.user_id == 577009581:
         if 'start' in event.raw_text or 'снова жив' in event.raw_text:
             time.sleep(random.randint(5,7)
-            await client.send.message('rf_telegram_bot','💖 Пополнить здоровье')
+            await client.send_message('rf_telegram_bot','💖 Пополнить здоровье')
             time.sleep(random.randint(5,7)
             await client.send_message('rf_telegram_bot','🏜 31-40 Сеттовая пустыня')
         if 'На пути у вас встретился' in event.raw_text:
