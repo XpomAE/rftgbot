@@ -33,7 +33,7 @@ async def my_events_handler(event):
             await send.message('rf_telegram_bot','🐺По уровню')
         if  'Вы наткнулись' in event.raw_text:
             time.sleep(random.randint(5,7)
-            async send.message('rf_telegram_bot','🔪 Атаковать')
+            await send.message('rf_telegram_bot','🔪 Атаковать')
         if  'к энергии' in event.raw_text:
             time.sleep(random.randint(5,7)
             await send.message('rf_telegram_bot','💖 Пополнить здоровье')
