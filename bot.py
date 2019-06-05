@@ -5,7 +5,6 @@ import math
 import random
 import time
 import threading
-from telebot import types
 from emoji import emojize
 
 
