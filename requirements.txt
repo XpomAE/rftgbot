@@ -2,3 +2,4 @@ redis
 emoji
 pymongo
 telethon
+telebot
