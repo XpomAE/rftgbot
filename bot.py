@@ -9,8 +9,8 @@ from emoji import emojize
 
 
 from telethon import TelegramClient, events, sync
-api_id = 541670['apiid']
-api_hash = e4b71141f5b96dfd5585659170d8aafa ['apihash']
+api_id = 541670
+api_hash = e4b71141f5b96dfd5585659170d8aafa
 client = TelegramClient('session', api_id, api_hash)
 
 #get session
